@@ -14,7 +14,7 @@ int main() {
     
     while(loop){
         
-        int stateSalesTax = .065, countySalesTax = .0275, year;
+        double stateSalesTax = .065, countySalesTax = .0275, year;
         string month;
         float totalCollected;
         string response;
@@ -33,11 +33,11 @@ int main() {
         
         cout << month << " " << year << endl;
         cout << "---------------- " << endl;
-        cout << "Total Collected:      " << "$ " << setprecision(7) << totalCollected << endl;
-        cout << "Sales:                " << "$ " << setprecision(7) << sales << endl;
-        cout << "County Sales Tax:     " << "$ " << setprecision(5) << totalCollectedCountySalesTax << endl;
-        cout << "State Sales Tax:      " << "$ " << setprecision(5) << totalCollectedStateSalesTax << endl;
-        cout << "Total Sales Tax:      " << "$ " << setprecision(5) << totalSalesTax << endl;
+        cout << "Total Collected:      " << "$ " << setprecision(7) << setw(8) << totalCollected << endl;
+        cout << "Sales:                " << "$ " << setprecision(7) << setw(8) << sales << endl;
+        cout << "County Sales Tax:     " << "$ " << setprecision(5) << setw(8) << totalCollectedCountySalesTax << endl;
+        cout << "State Sales Tax:      " << "$ " << setprecision(5) << setw(8) << totalCollectedStateSalesTax << endl;
+        cout << "Total Sales Tax:      " << "$ " << setprecision(5) << setw(8) << totalSalesTax << endl;
         cout << endl << "Do you want to perform another calculation? (Y/N): ";
         cin >> response;
         
