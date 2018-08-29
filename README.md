@@ -11,9 +11,9 @@ Output: All dollar amounts should be rounded to 2 decimal places. The program sh
 September 2018
 ---------------- 
 Total Collected: $ 12345.67 
-Sales: $ 11300.38 
-County Sales Tax: $ 310.76 
-State Sales Tax: $ 734.52 
+Sales: $ 11300.38
+County Sales Tax: $ 310.76
+State Sales Tax: $ 734.52
 Total Sales Tax: $ 1045.28
 
 Do you want to perform another calculation? (Y/N):
